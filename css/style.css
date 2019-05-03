@@ -1,0 +1,95 @@
+body{
+    font-family:Oswald, Arial;
+}
+header{
+    background:url(../img/bulle-savon.jpg) center center no-repeat;
+    min-height:100vh;
+    background-size:cover; 
+}
+.size-row{
+    min-height:100vh;
+}
+.card-img{
+    width:70%;
+    height:70%;
+    align-content: center;
+}
+.card a{
+    color:plum;
+    text-decoration: none;
+}
+.card a:hover{
+    color:#6c757d;
+}
+footer a{
+    color:#fff;
+}
+footer a:hover{
+    color:plum;
+    text-decoration:none;
+}
+.contact{
+    background:url(../img/soap-form.jpg) center center no-repeat;
+    background-size:cover;
+}
+.contact .form-control, header .form-control, footer .form-control{
+    background-color:transparent;
+}
+.contact .btn:hover{
+    background-color:plum;
+    border:1px solid plum;
+}
+.navbar-dark{
+    opacity:0.8 !important;
+    background-color: #000 !important;
+}
+section{
+    padding:20px;
+}
+.bg-rose{
+    background-color:plum;
+}
+.bg-black{
+    background-color:black;
+}
+.bg-o{
+    opacity:0.8;
+}
+texte-plum{
+    color:plum;
+}
+.btn-t{
+    background-color:transparent; 
+    border: 1px solid #fff;
+}
+.form-control:focus{
+    border-color: plum;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px plum;
+}
+.btn-t:hover{
+    background-color: plum;
+    border:1px solid #fff;
+    color:#fff;
+}
+.btn-rose{
+    background-color:plum;
+    color:#6c757d;
+}
+.btn-rose:hover{
+    background-color:#6c757d !important;
+    color:#fff;
+}
+.navbar-toggler:hover{
+    border-color:plum !important;
+}
+.navbar-dark a{
+    color:#fff !important;
+}
+.navbar-dark a:hover{
+    color:plum !important;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
